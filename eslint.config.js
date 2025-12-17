@@ -6,6 +6,7 @@ import reactRefresh from 'eslint-plugin-react-refresh'
 import { defineConfig } from 'eslint/config'
 import tseslint from 'typescript-eslint'
 
+
 export default defineConfig(
   { ignores: ['dist', 'src/components/ui'] },
   {
@@ -56,4 +57,4 @@ export default defineConfig(
       'no-duplicate-imports': 'error',
     },
   }
-)
+);
